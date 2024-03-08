@@ -1,0 +1,123 @@
+body {
+  margin-top: 7%;
+  padding: 0;
+  width: 100%;
+  bottom: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(249, 222, 230, 0.45);
+}
+
+element.style {
+  scrollbar-width: none;
+}
+.nav-type {
+  list-style-type: none;
+  display: flex;
+  padding: 0.6%;
+  margin: 0; /* הוספת מרווחים מדויקים בתוך ה-NavBar */
+  background-size: 400% 400%;
+  background-image: linear-gradient(
+    -45deg,
+    #cb6584,
+    #e1a5b4,
+    hsl(334, 84%, 58%),
+    #f73673,
+    #e89cb5
+  );
+  animation: 12s myGradient infinite;
+  box-shadow: 3px 3px 20px #f098a5;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  justify-content: space-around;
+}
+
+@keyframes myGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 4px; /* הוספת פדינג ומרווחים לפריטי ה-NavBar */
+  font-family: verdana;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+.user-link {
+  display: flex;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+/* .MuiBadge-dot {
+  background-color: white;
+} */
+.navigation {
+  position: fixed;
+  background-color: rgb(255, 209, 223);
+  transform: translate(-50%, -50%);
+  padding: 0.2%;
+  top: 7%;
+  width: 100%;
+  z-index: 100;
+}
+.img {
+  margin-left: 44%;
+  margin-top: 2%;
+  height: 45px;
+}
+
+@media (max-width: 767px) {
+  .flash-GIF {
+    display: none;
+  }
+
+  .line-w5 {
+    display: none;
+  }
+
+  /* .navigation {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  } */
+}
+
+.html-section {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  body {
+    margin-top: 12%;
+  }
+  li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px; /* הוספת פדינג ומרווחים לפריטי ה-NavBar */
+    font-family: verdana;
+    font-weight: lighter;
+    font-size: 15px;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+}

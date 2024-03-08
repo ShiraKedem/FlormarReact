@@ -1,0 +1,74 @@
+.shopping-cart-small h2,
+span {
+  margin-bottom: 10px;
+}
+
+.shopping-cart-small ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.shopping-cart-small li {
+  display: flex;
+  border-bottom: #ccc 2px solid;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.shopping-cart-small button {
+  background-color: #eb5b8b;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shopping-cart-small .imgShoppingLarg-samall {
+  width: 70px;
+}
+
+.imgs {
+  margin-left: 25%;
+  width: 50%;
+}
+.shopping-cart-small {
+  /* המסך יהיה עם רוחב קבוע של 25% כל עוד המסך גדול מ-1200px */
+  max-width: 60%;
+  position: fixed;
+  bottom: 0;
+  left: 15%;
+  transform: translateX(-50%);
+  background-color: #ffd2e1;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  animation: slideIn 0.5s forwards;
+  scrollbar-width: none;
+  overflow-y: auto;
+
+  max-height: 50vh;
+  transform: translateX(-50%);
+  scrollbar-width: none;
+  overflow-y: auto;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-50%) translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+}
+@media (max-width: 1200px) {
+  .shopping-cart-small {
+    /* המסך יתרחב כאשר המסך קטן מ-1200px */
+    margin-left: 10%;
+    left: 18%;
+  }
+}

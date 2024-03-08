@@ -1,0 +1,123 @@
+/* ShoppingCart.css */
+#all {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(249, 222, 230, 0.45);
+  height: 100%;
+}
+
+.shopping-cart {
+  margin-top: 60px;
+  width: 60%;
+  border-top: 8px #000000 solid;
+  border-radius: 8px;
+}
+#card {
+  width: 30%;
+}
+
+body {
+  background-color: rgba(249, 222, 230, 0.45);
+}
+.shopping-cart h2 {
+  font-size: 0.5em;
+  margin-bottom: 4px;
+  border-bottom: 10px solid #daaec6;
+}
+
+.shopping-cart ul {
+  list-style: none;
+  padding: 0;
+  margin: 2%;
+}
+
+.shopping-cart li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #daaec6;
+  padding: 8px 0;
+  margin: 2px 0;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+}
+
+.shopping-cart button {
+  background-color: #000000; /* רוד סגול */
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+.order-summary img {
+  width: 150px;
+}
+
+.count h1 {
+  margin: 0;
+  padding: 0 10px;
+  font-size: 1.1em;
+}
+
+.shopping-cart span {
+  margin: 0 10px;
+  max-width: 200px; /* קביעת גבול לרוחב */
+  width: 100%;
+}
+
+.imgShoppingLarg {
+  width: 50px; /* גודל התמונה */
+  height: auto;
+  border-radius: 4px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-container input[type="checkbox"] {
+  /* margin-right: 8px; */
+  height: 3vh;
+  width: 3vw;
+}
+
+.purchase-button {
+  background-color: #000000; /* ירוק */
+  color: #fff;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 135px;
+  /* margin: 2%; */
+}
+
+.purchase-button:hover {
+  background-color: #393737;
+}
+
+.order-summary {
+  background-color: #ffd2e1;
+
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-top: 65px;
+  text-align: center;
+  width: 25%;
+  padding: 1%;
+  margin-bottom: 5%;
+}
+
+.buttonS {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}

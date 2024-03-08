@@ -1,0 +1,56 @@
+.orders-container {
+  max-width: 700px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  font-weight: 500;
+  font-style: italic;
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: none;
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  padding: 5%;
+}
+
+.order-card {
+  border: 2px solid #443c3c;
+  border-radius: 15px;
+  padding: 12px;
+  list-style-type: none;
+}
+
+.send-button {
+  background-color: #eb5b8b;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 500;
+  font-style: italic;
+  font-family: "Cormorant Garamond", sans-serif;
+  line-height: 50px;
+}
+@media only screen and (max-width: 1300px) {
+  .orders-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .orders-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .orders-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

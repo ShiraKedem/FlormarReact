@@ -1,0 +1,200 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+.footer-cta {
+  display: flex;
+
+  justify-content: space-around;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 280px;
+  margin-right: 0%;
+}
+.logo {
+  margin-left: 2%;
+  margin: 0%;
+  text-decoration: none;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  height: 69%;
+}
+.text-footer {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  max-width: 200px;
+  line-height: 25px;
+  /* margin-left: -20px; */
+  font-family: "Avenir", sans-serif;
+  display: block;
+}
+
+.footer-section {
+  background: rgb(228, 90, 128);
+  color: #ffffff;
+  bottom: 0;
+  height: 280px;
+  width: 100%;
+  z-index: 1000;
+}
+.black {
+  text-align: center;
+  background-color: rgb(3, 3, 3);
+  color: white;
+}
+.cta-text {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Avenir", sans-serif;
+  display: block;
+}
+.cta-text-mail {
+  font-size: 19px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Avenir", sans-serif;
+  display: block;
+}
+
+.icon {
+  margin-left: 15px;
+  height: 50px;
+  width: 50px;
+}
+.icon1 {
+  height: 70px;
+  width: 35px;
+  margin-top: 20%;
+}
+.fa-envelope {
+  display: flex;
+  justify-content: center;
+  margin-right: 0%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 46px;
+  width: 46px;
+  font-family: "Titillium Web", sans-serif;
+  color: rgb(247, 95, 138);
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.834);
+  background: rgb(255, 255, 255);
+  margin: 9px;
+  transition: 1s;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 1s;
+  text-align: center;
+}
+
+.social-btn:hover {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.social-btn:hover span {
+  padding: 2px;
+  width: max-content;
+}
+/* רוספונסיביות למסך ברוחב עד 1000 פיקסלים */
+@media only screen and (max-width: 1000px) {
+  .footer-section {
+    height: 213px;
+  }
+
+  .footer-logo {
+    margin-top: 2%;
+    height: auto; /* גובה אוטומטי, כדי לאפשר סידור אופקי של הפריטים */
+    flex-direction: column-reverse; /* יילך לפי עמודות ולא שורות */
+  }
+
+  .logo {
+    height: 90px; /* כלומר, לוגו קטן יותר */
+  }
+
+  .text-footer,
+  .icon,
+  .icon1 {
+    margin-top: 5px; /* מרווח בין הפריטים בעמודה אחת */
+  }
+
+  .social-links {
+    margin-top: 8px; /* מרווח בין הפריטים בעמודה אחת */
+  }
+
+  .logo img {
+    margin-bottom: 5px; /* מרווח בין הלוגו לתמונה מתחתיו */
+  }
+
+  .text-footer,
+  .cta-text,
+  .cta-text-mail,
+  .icon,
+  .icon1,
+  .social-btn span {
+    font-size: 15px; /* קטן את מידת הפונט */
+  }
+  .social-btn {
+    height: 41px;
+    width: 41px;
+    margin: 5px;
+  }
+  .social-btn:hover {
+    width: 150px;
+    border-radius: 5px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .footer-section {
+    height: 194px;
+  }
+  .text-footer,
+  .icon,
+  .icon1 {
+    margin-top: 7px; /* מרווח בין הפריטים בעמודה אחת */
+  }
+  .text-footer,
+  .cta-text,
+  .cta-text-mail,
+  .icon,
+  .icon1,
+  .social-btn span {
+    font-size: 10px; /* קטן את מידת הפונט */
+  }
+  .social-btn {
+    height: 39px;
+    width: 39px;
+    margin: 3px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .footer-section {
+    height: 180px;
+  }
+}

@@ -1,0 +1,123 @@
+body {
+}
+
+.allProduct {
+  height: fit-content;
+  display: flex;
+  /* border: solid 2px black; */
+  box-shadow: 100px 35px 100px rgba(0, 0, 0, 0.2);
+}
+.product {
+  font-weight: normal;
+  font-style: normal;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  margin: 5%;
+}
+.imgProduct img {
+  height: 70vh;
+  object-fit: fill;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.allDivProduct {
+  scrollbar-width: none;
+}
+
+.success-message {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  scrollbar-width: none;
+}
+.success-message::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.link {
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.success-message button:hover {
+  background-color: #eb5b8b;
+}
+.item_color_image.lazy.loaded {
+  font-family: "Almoni", sans-serif;
+  --swiper-theme-color: #007aff;
+  --swiper-navigation-size: 44px;
+  direction: rtl;
+  cursor: pointer;
+  margin: 10px; /* מרווחים בין האלמנטים */
+  font-size: 100%;
+  color: inherit;
+  box-sizing: border-box;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  width: 30px; /* רוחב התמונה בפיקסלים */
+  height: 30px; /* גובה התמונה בפיקסלים */
+  display: inline-block; /* עמידה בשורה */
+  transition: all 0.25s ease;
+  transform-origin: 50% 100%;
+  padding: 2.5px;
+  border: 1px solid #000;
+  object-fit: contain; /* תמונה תמלא את התיבה ותשמר את יחסי ההיקף */
+}
+.allDivProduct {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(249, 222, 230, 0.99);
+  border-radius: 8px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  text-align: center;
+  overflow: auto;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+@media (max-width: 1300px) {
+  .allDivProduct {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .allDivProduct {
+    width: 80%;
+  }
+}
+
+@media (max-width: 900px) {
+  .allDivProduct {
+    width: 90%;
+  }
+}
