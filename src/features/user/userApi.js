@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://localhost:4500/api/user";
+const baseUrl = "https://projectnode-2.onrender.com/api/user";
 
 export const addUser = (email, password, userName) => {
   return axios.post(`${baseUrl}`, { email, password, userName });

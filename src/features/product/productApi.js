@@ -1,5 +1,5 @@
 import axios from "axios";
-let baseUrl = "http://localhost:4500/api/product/";
+let baseUrl = "https://projectnode-2.onrender.com/api/product/";
 export const getProducts = (page, perPage, serach) => {
   return axios.get(`${baseUrl}?page=${page}&perPage=${perPage}&txt=${serach}`);
 };
