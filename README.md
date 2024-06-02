@@ -1,70 +1,10 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![צילום מסך 2024-06-02 032838](https://github.com/ShiraKedem/FlormarReact/assets/150906665/0ad30d1d-deda-4b32-995b-bc27fa8f67da)
+![צילום מסך 2024-06-02 033034](https://github.com/ShiraKedem/FlormarReact/assets/150906665/7462220b-bfc6-4a1e-a0b2-a30ae1f0c8c1)
+![צילום מסך 2024-06-02 033104](https://github.com/ShiraKedem/FlormarReact/assets/150906665/0f26b854-130d-4250-8df0-fdd57b82d425)
+![צילום מסך 2024-06-02 033114](https://github.com/ShiraKedem/FlormarReact/assets/150906665/2172060f-d40c-4ff3-a073-30c80952f508)
+![צילום מסך 2024-06-02 033124](https://github.com/ShiraKedem/FlormarReact/assets/150906665/9531249d-8741-4cf3-b858-f3d160b25627)
+![צילום מסך 2024-06-02 033214](https://github.com/ShiraKedem/FlormarReact/assets/150906665/73b3f156-496e-4968-9f59-f0422f3d0cb5)
+![צילום מסך 2024-06-02 033651](https://github.com/ShiraKedem/FlormarReact/assets/150906665/7a9f13c8-d112-4ebf-bf48-9ba99b5dc302)
+![צילום מסך 2024-06-02 033758](https://github.com/ShiraKedem/FlormarReact/assets/150906665/d034d5a4-b54d-476c-90c1-cf5f03035069)
+![צילום מסך 2024-06-02 033805](https://github.com/ShiraKedem/FlormarReact/assets/150906665/645f5dad-0530-4dea-a7ef-f941a342cdbc)
+![צילום מסך 2024-06-02 033817](https://github.com/ShiraKedem/FlormarReact/assets/150906665/0cb0d151-cd03-4298-8cca-9661be48be43)
